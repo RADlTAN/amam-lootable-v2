@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:chest",
+                                    "minecraft:trapped_chest",
+                                    "minecraft:barrel"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "amamlt_v2:test"
+    }
+}
