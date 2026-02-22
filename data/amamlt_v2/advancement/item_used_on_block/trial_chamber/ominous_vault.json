@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": 
+                        {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:vault"
+                                ],
+                                "nbt": "{config:{key_item:{id:\"minecraft:ominous_trial_key\"}}}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:ominous_trial_key"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "amamlt_v2:reward/item_used_on_block/ominous_vault"
+    }
+}

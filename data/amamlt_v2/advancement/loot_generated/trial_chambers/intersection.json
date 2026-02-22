@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/trial_chambers/intersection"
+            }
+        }
+    },
+    "rewards": {
+        "function": "amamlt_v2:reward/loot_generated/trial_chambers/intersection"
+    }
+}

@@ -26,7 +26,7 @@
                                 "custom_name": {
                                     "text":"Villager Tome","italic":false,"bold":true,"color":"gold","shadow_color":[0,0,0,1]
                                 },
-                                "minecraft:lore": ["In case you really ARE\ndesperate to trade"]
+                                "minecraft:lore": ["In case you really ARE","desperate to trade"]
                             }
                         }
                     ]

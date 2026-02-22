@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "amamlt_v2:reward/killed/zombie_villager"
+    }
+}
